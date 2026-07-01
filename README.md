@@ -24,4 +24,4 @@ This repository is governed by [`CLAUDE.md`](CLAUDE.md). All contributors (human
 3. Ask before making architectural changes.
 4. Keep documentation in sync with implementation.
 
-See `CLAUDE.md` for the full governing instructions.
+See `CLAUDE.md` for the full governing instructions, [`CONTRIBUTING.md`](CONTRIBUTING.md) for how work flows through the repository, and [`CHANGELOG.md`](CHANGELOG.md) for a history of notable changes.
