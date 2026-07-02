@@ -1,6 +1,6 @@
 # Specification: Title
 
-> A Specification defines **what must be implemented**, not **how it is implemented**. Architectural rationale belongs in an ADR (`04 ADR/`), operational procedures belong in governance documents, and implementation details belong in technical design or code.
+> A Specification defines **what must be implemented**, not **how it is implemented**. Architectural rationale belongs in an ADR (`07 ADR/`), operational procedures belong in governance documents, and implementation details belong in technical design or code.
 
 ## ID
 SPEC-XXX-NNN

@@ -6,7 +6,7 @@
 VAULT-IA-001
 
 ## Status
-Draft
+Ratified
 
 ## Date
 2026-07-02
@@ -15,7 +15,10 @@ Draft
 Founder
 
 ## Approver
-Founder (Pending)
+Founder
+
+## Ratification Date
+2026-07-02
 
 ## Type
 Architecture Proposal (knowledge architecture, not software architecture)
@@ -97,12 +100,12 @@ Business systems are not a Vault domain. The Vault governs Thrive OS itself; bus
 - **Numbering:** top-level folders use contiguous two-digit numbers reflecting conceptual order (Design Principle 2); document IDs within a domain are sequential, zero-padded, and never reused, even if the document is later moved to Archive.
 
 ## 7. Migration Strategy
-Described for future reference only — not performed as part of this proposal:
-1. Approve this proposal (Founder ratification).
-2. Create the new folders at their proposed numbers, each with its own README stating its purpose.
-3. Move existing documents into their new folder locations using version-control-preserving moves, not copy-and-delete.
-4. Audit and update every internal cross-reference (relative Markdown links) across all moved documents in the same change.
-5. Update the folder-structure listings in the Vault's own `README.md`, `CONTRIBUTING.md`, and `CLAUDE.md` to match.
+Executed as Milestone 3B.5 (2026-07-02), following ratification:
+1. Approve this proposal (Founder ratification). — **Done.**
+2. Create the new folders at their proposed numbers, each with its own README stating its purpose. — **Done** (`03 System Definition/`, `04 Guiding Principles/`, `05 Governance/`).
+3. Move existing documents into their new folder locations using version-control-preserving moves, not copy-and-delete. — **Done** via `git mv`.
+4. Audit and update every internal cross-reference (relative Markdown links) across all moved documents in the same change. — **Done.**
+5. Update the folder-structure listings in the Vault's own `README.md`, `CONTRIBUTING.md`, and `CLAUDE.md` to match. — **Done** (`README.md` and `CONTRIBUTING.md` updated; `CLAUDE.md` contained no folder-number references requiring change).
 6. Confirm no dangling references remain before considering the migration complete.
 
 ## 8. Risks
@@ -120,17 +123,17 @@ Described for future reference only — not performed as part of this proposal:
 None remaining. The prior open items have been resolved by architectural decision: numbering remains contiguous; Business is excluded from the taxonomy; Guiding Principles and Governance remain separate domains.
 
 ## 11. Acceptance Criteria
-- [ ] Every top-level folder maps to exactly one knowledge domain with a non-overlapping purpose statement.
-- [ ] Every Vault document that exists as of this proposal has an unambiguous new home in the proposed structure.
-- [ ] The taxonomy's treatment of Constitution, Guiding Principles, and Governance is resolved with testable, non-overlapping purpose statements.
-- [ ] The taxonomy defines a naming convention applicable to all current and reasonably foreseeable future document types.
-- [ ] The proposal identifies a migration path that risks no data loss and accounts for link integrity.
-- [ ] The structure remains legible to a human skimming folder names and to an AI system retrieving by folder purpose alone.
+- [x] Every top-level folder maps to exactly one knowledge domain with a non-overlapping purpose statement.
+- [x] Every Vault document that exists as of this proposal has an unambiguous new home in the proposed structure.
+- [x] The taxonomy's treatment of Constitution, Guiding Principles, and Governance is resolved with testable, non-overlapping purpose statements.
+- [x] The taxonomy defines a naming convention applicable to all current and reasonably foreseeable future document types.
+- [x] The proposal identifies a migration path that risks no data loss and accounts for link integrity.
+- [x] The structure remains legible to a human skimming folder names and to an AI system retrieving by folder purpose alone.
 
 ## References
 - [`vault/01 Constitution/Constitution.md`](../../01%20Constitution/Constitution.md)
 - [`vault/02 Vision/Vision.md`](../../02%20Vision/Vision.md)
-- [`vault/05 Specifications/SPEC-SYSDEF-001 - System Definition.md`](../../05%20Specifications/SPEC-SYSDEF-001%20-%20System%20Definition.md) — the specification whose Vault-placement dependency triggered this proposal.
+- [`vault/08 Specifications/SPEC-SYSDEF-001 - System Definition.md`](../../08%20Specifications/SPEC-SYSDEF-001%20-%20System%20Definition.md) — the specification whose Vault-placement dependency triggered this proposal.
 - [`vault/README.md`](../../README.md) — current Vault structure this proposal reconsiders.
 - [`CONTRIBUTING.md`](../../../CONTRIBUTING.md)
 - [`CLAUDE.md`](../../../CLAUDE.md)

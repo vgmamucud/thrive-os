@@ -1,6 +1,6 @@
 # Specification: Thrive OS Constitution
 
-> A Specification defines **what must be implemented**, not **how it is implemented**. Architectural rationale belongs in an ADR (`04 ADR/`), operational procedures belong in governance documents, and implementation details belong in technical design or code.
+> A Specification defines **what must be implemented**, not **how it is implemented**. Architectural rationale belongs in an ADR (`07 ADR/`), operational procedures belong in governance documents, and implementation details belong in technical design or code.
 
 ## ID
 SPEC-CONST-001
@@ -63,7 +63,7 @@ The Constitution must contain the following sections, in this order:
 ## Dependencies
 - None required to approve this specification. The following are needed before Article VI and Article VII cross-references can resolve to real documents, but their absence does not block drafting the Constitution with placeholder links:
   - A future Governance Process document (referenced by Article VI).
-  - A future AI Collaboration Conventions document in `08 AI/` (referenced by Article VII).
+  - A future AI Collaboration Conventions document in `11 AI Collaboration/` (referenced by Article VII).
 
 ## Risks
 - A Constitution kept deliberately concise and vendor-independent may read as abstract or under-specified to implementers used to detailed specs — accepted as inherent to the Constitution's role as a foundational, rarely-changed document, not a procedural one.
@@ -77,7 +77,7 @@ None remaining. All items raised during review have been resolved (see Deferred 
 ## Deferred Decisions
 - The exact wording and enumeration of terms in the Appendix — Definitions section is left to implementation, provided every term used normatively elsewhere in the document is defined.
 - Governance process mechanics (e.g. how amendments are proposed, discussed, and ratified beyond the high-level rule in Article VIII) are deferred to a future governance document rather than specified here.
-- Placeholder cross-references in Article VI and Article VII are not approval blockers; they will be resolved as the remaining foundational governance documents (a Governance Process document and an AI Collaboration Conventions document in `08 AI/`) are created.
+- Placeholder cross-references in Article VI and Article VII are not approval blockers; they will be resolved as the remaining foundational governance documents (a Governance Process document in `05 Governance/` and an AI Collaboration Conventions document in `11 AI Collaboration/`) are created.
 
 ## Acceptance Criteria
 - [ ] All twelve required sections are present, in the specified order.

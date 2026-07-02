@@ -22,8 +22,8 @@ One paragraph describing what this project is and why it exists.
 What success looks like when this project is complete.
 
 ## Related Documents
-- ADR(s): `04 ADR/...`
-- Specification(s): `05 Specifications/...`
+- ADR(s): `07 ADR/...`
+- Specification(s): `08 Specifications/...`
 - Meeting(s): links to relevant meeting notes
 - Commit(s): links or hashes of the commits that implemented this project
 

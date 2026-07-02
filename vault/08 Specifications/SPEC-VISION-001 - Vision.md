@@ -1,6 +1,6 @@
 # Specification: Thrive OS Vision
 
-> A Specification defines **what must be implemented**, not **how it is implemented**. Architectural rationale belongs in an ADR (`04 ADR/`), operational procedures belong in governance documents, and implementation details belong in technical design or code.
+> A Specification defines **what must be implemented**, not **how it is implemented**. Architectural rationale belongs in an ADR (`07 ADR/`), operational procedures belong in governance documents, and implementation details belong in technical design or code.
 
 ## ID
 SPEC-VISION-001
@@ -33,8 +33,8 @@ This specification defines the required structure and content constraints for th
 
 ## Non-Goals
 - Writing the Vision's actual prose (that is the implementation step, gated on approval of this spec).
-- Defining architecture, technology choices, or system design — those belong in `03 Architecture/` and ADRs, not the Vision.
-- Defining specific projects, milestones, or roadmaps — those belong in `06 Projects/`; the Vision states direction, not a plan to get there.
+- Defining architecture, technology choices, or system design — those belong in `06 Architecture/` and ADRs, not the Vision.
+- Defining specific projects, milestones, or roadmaps — those belong in `09 Projects/`; the Vision states direction, not a plan to get there.
 - Restating or duplicating the Constitution's principles or authority structure — the Vision must be consistent with the Constitution but is not a place to re-derive it.
 
 ## Functional Requirements
@@ -73,7 +73,7 @@ The Vision must contain the following sections, in this order:
 ## Open Questions
 None remaining. Both items raised during drafting have been resolved:
 - **Vision revision process:** no separate revision process is required; Vision revisions follow the standard governance process defined by future Governance documents (see Deferred Decisions).
-- **Project entry:** no `06 Projects/` entry is required; the Vision is a foundational governance artifact, not a project — consistent with the precedent set for Milestone 3A.
+- **Project entry:** no `09 Projects/` entry is required; the Vision is a foundational governance artifact, not a project — consistent with the precedent set for Milestone 3A.
 
 ## Deferred Decisions
 - The exact list of terms requiring definition in the Vision's Appendix is left to implementation, provided every term introduced and used normatively is defined either there or by reference to the Constitution's existing Appendix.
@@ -99,6 +99,6 @@ None remaining. Both items raised during drafting have been resolved:
 ## References
 - [`vault/01 Constitution/Constitution.md`](../01%20Constitution/Constitution.md) — supreme governing reference this Vision must remain consistent with.
 - [`vault/02 Vision/README.md`](../02%20Vision/README.md) — current folder placeholder; implementation target for this specification.
-- [`vault/05 Specifications/SPEC-CONST-001 - Constitution.md`](SPEC-CONST-001%20-%20Constitution.md) — prior specification in this Documentation-First sequence, for structural precedent.
+- [`vault/08 Specifications/SPEC-CONST-001 - Constitution.md`](SPEC-CONST-001%20-%20Constitution.md) — prior specification in this Documentation-First sequence, for structural precedent.
 - [`CONTRIBUTING.md`](../../CONTRIBUTING.md) — repository workflow this specification follows.
 - [`CLAUDE.md`](../../CLAUDE.md) — governing instructions for implementation work.
